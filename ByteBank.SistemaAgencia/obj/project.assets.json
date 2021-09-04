@@ -1952,11 +1952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectUniqueName": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-deepening\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
       "projectName": "ByteBank.SistemaAgencia",
-      "projectPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-deepening\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
       "packagesPath": "C:\\Users\\vmartins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.SistemaAgencia\\obj\\",
+      "outputPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-deepening\\ByteBank.SistemaAgencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -1977,8 +1977,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
-              "projectPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
+            "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-deepening\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+              "projectPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-deepening\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
             }
           }
         }
