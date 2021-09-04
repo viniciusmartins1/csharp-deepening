@@ -1,0 +1,2017 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Humanizer/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core.af": "2.11.10",
+          "Humanizer.Core.ar": "2.11.10",
+          "Humanizer.Core.az": "2.11.10",
+          "Humanizer.Core.bg": "2.11.10",
+          "Humanizer.Core.bn-BD": "2.11.10",
+          "Humanizer.Core.cs": "2.11.10",
+          "Humanizer.Core.da": "2.11.10",
+          "Humanizer.Core.de": "2.11.10",
+          "Humanizer.Core.el": "2.11.10",
+          "Humanizer.Core.es": "2.11.10",
+          "Humanizer.Core.fa": "2.11.10",
+          "Humanizer.Core.fi-FI": "2.11.10",
+          "Humanizer.Core.fr": "2.11.10",
+          "Humanizer.Core.fr-BE": "2.11.10",
+          "Humanizer.Core.he": "2.11.10",
+          "Humanizer.Core.hr": "2.11.10",
+          "Humanizer.Core.hu": "2.11.10",
+          "Humanizer.Core.hy": "2.11.10",
+          "Humanizer.Core.id": "2.11.10",
+          "Humanizer.Core.it": "2.11.10",
+          "Humanizer.Core.ja": "2.11.10",
+          "Humanizer.Core.ko-KR": "2.11.10",
+          "Humanizer.Core.ku": "2.11.10",
+          "Humanizer.Core.lv": "2.11.10",
+          "Humanizer.Core.ms-MY": "2.11.10",
+          "Humanizer.Core.mt": "2.11.10",
+          "Humanizer.Core.nb": "2.11.10",
+          "Humanizer.Core.nb-NO": "2.11.10",
+          "Humanizer.Core.nl": "2.11.10",
+          "Humanizer.Core.pl": "2.11.10",
+          "Humanizer.Core.pt": "2.11.10",
+          "Humanizer.Core.ro": "2.11.10",
+          "Humanizer.Core.ru": "2.11.10",
+          "Humanizer.Core.sk": "2.11.10",
+          "Humanizer.Core.sl": "2.11.10",
+          "Humanizer.Core.sr": "2.11.10",
+          "Humanizer.Core.sr-Latn": "2.11.10",
+          "Humanizer.Core.sv": "2.11.10",
+          "Humanizer.Core.th-TH": "2.11.10",
+          "Humanizer.Core.tr": "2.11.10",
+          "Humanizer.Core.uk": "2.11.10",
+          "Humanizer.Core.uz-Cyrl-UZ": "2.11.10",
+          "Humanizer.Core.uz-Latn-UZ": "2.11.10",
+          "Humanizer.Core.vi": "2.11.10",
+          "Humanizer.Core.zh-CN": "2.11.10",
+          "Humanizer.Core.zh-Hans": "2.11.10",
+          "Humanizer.Core.zh-Hant": "2.11.10"
+        }
+      },
+      "Humanizer.Core/2.11.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
+      "Humanizer.Core.af/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/af/Humanizer.resources.dll": {
+            "locale": "af"
+          }
+        }
+      },
+      "Humanizer.Core.ar/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/ar/Humanizer.resources.dll": {
+            "locale": "ar"
+          }
+        }
+      },
+      "Humanizer.Core.az/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/az/Humanizer.resources.dll": {
+            "locale": "az"
+          }
+        }
+      },
+      "Humanizer.Core.bg/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/bg/Humanizer.resources.dll": {
+            "locale": "bg"
+          }
+        }
+      },
+      "Humanizer.Core.bn-BD/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/bn-BD/Humanizer.resources.dll": {
+            "locale": "bn-BD"
+          }
+        }
+      },
+      "Humanizer.Core.cs/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/Humanizer.resources.dll": {
+            "locale": "cs"
+          }
+        }
+      },
+      "Humanizer.Core.da/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/da/Humanizer.resources.dll": {
+            "locale": "da"
+          }
+        }
+      },
+      "Humanizer.Core.de/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/de/Humanizer.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "Humanizer.Core.el/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/el/Humanizer.resources.dll": {
+            "locale": "el"
+          }
+        }
+      },
+      "Humanizer.Core.es/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/es/Humanizer.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Humanizer.Core.fa/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/fa/Humanizer.resources.dll": {
+            "locale": "fa"
+          }
+        }
+      },
+      "Humanizer.Core.fi-FI/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/fi-FI/Humanizer.resources.dll": {
+            "locale": "fi-FI"
+          }
+        }
+      },
+      "Humanizer.Core.fr/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/fr/Humanizer.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Humanizer.Core.fr-BE/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/fr-BE/Humanizer.resources.dll": {
+            "locale": "fr-BE"
+          }
+        }
+      },
+      "Humanizer.Core.he/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/he/Humanizer.resources.dll": {
+            "locale": "he"
+          }
+        }
+      },
+      "Humanizer.Core.hr/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/hr/Humanizer.resources.dll": {
+            "locale": "hr"
+          }
+        }
+      },
+      "Humanizer.Core.hu/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/hu/Humanizer.resources.dll": {
+            "locale": "hu"
+          }
+        }
+      },
+      "Humanizer.Core.hy/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/hy/Humanizer.resources.dll": {
+            "locale": "hy"
+          }
+        }
+      },
+      "Humanizer.Core.id/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/id/Humanizer.resources.dll": {
+            "locale": "id"
+          }
+        }
+      },
+      "Humanizer.Core.it/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/it/Humanizer.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "Humanizer.Core.ja/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/ja/Humanizer.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Humanizer.Core.ko-KR/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/ko-KR/Humanizer.resources.dll": {
+            "locale": "ko-KR"
+          }
+        }
+      },
+      "Humanizer.Core.ku/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/ku/Humanizer.resources.dll": {
+            "locale": "ku"
+          }
+        }
+      },
+      "Humanizer.Core.lv/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/lv/Humanizer.resources.dll": {
+            "locale": "lv"
+          }
+        }
+      },
+      "Humanizer.Core.ms-MY/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/ms-MY/Humanizer.resources.dll": {
+            "locale": "ms-MY"
+          }
+        }
+      },
+      "Humanizer.Core.mt/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/mt/Humanizer.resources.dll": {
+            "locale": "mt"
+          }
+        }
+      },
+      "Humanizer.Core.nb/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/nb/Humanizer.resources.dll": {
+            "locale": "nb"
+          }
+        }
+      },
+      "Humanizer.Core.nb-NO/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/nb-NO/Humanizer.resources.dll": {
+            "locale": "nb-NO"
+          }
+        }
+      },
+      "Humanizer.Core.nl/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/nl/Humanizer.resources.dll": {
+            "locale": "nl"
+          }
+        }
+      },
+      "Humanizer.Core.pl/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/pl/Humanizer.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "Humanizer.Core.pt/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/pt/Humanizer.resources.dll": {
+            "locale": "pt"
+          }
+        }
+      },
+      "Humanizer.Core.ro/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/ro/Humanizer.resources.dll": {
+            "locale": "ro"
+          }
+        }
+      },
+      "Humanizer.Core.ru/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/ru/Humanizer.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
+      "Humanizer.Core.sk/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/sk/Humanizer.resources.dll": {
+            "locale": "sk"
+          }
+        }
+      },
+      "Humanizer.Core.sl/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/sl/Humanizer.resources.dll": {
+            "locale": "sl"
+          }
+        }
+      },
+      "Humanizer.Core.sr/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/sr/Humanizer.resources.dll": {
+            "locale": "sr"
+          }
+        }
+      },
+      "Humanizer.Core.sr-Latn/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/sr-Latn/Humanizer.resources.dll": {
+            "locale": "sr-Latn"
+          }
+        }
+      },
+      "Humanizer.Core.sv/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/sv/Humanizer.resources.dll": {
+            "locale": "sv"
+          }
+        }
+      },
+      "Humanizer.Core.th-TH/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/th-TH/Humanizer.resources.dll": {
+            "locale": "th-TH"
+          }
+        }
+      },
+      "Humanizer.Core.tr/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/tr/Humanizer.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Humanizer.Core.uk/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/uk/Humanizer.resources.dll": {
+            "locale": "uk"
+          }
+        }
+      },
+      "Humanizer.Core.uz-Cyrl-UZ/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/uz-Cyrl-UZ/Humanizer.resources.dll": {
+            "locale": "uz-Cyrl-UZ"
+          }
+        }
+      },
+      "Humanizer.Core.uz-Latn-UZ/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/uz-Latn-UZ/Humanizer.resources.dll": {
+            "locale": "uz-Latn-UZ"
+          }
+        }
+      },
+      "Humanizer.Core.vi/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/vi/Humanizer.resources.dll": {
+            "locale": "vi"
+          }
+        }
+      },
+      "Humanizer.Core.zh-CN/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/zh-CN/Humanizer.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Humanizer.Core.zh-Hans/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/zh-Hans/Humanizer.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Humanizer.Core.zh-Hant/2.11.10": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.11.10]"
+        },
+        "resource": {
+          "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.NETCore.App/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.0/Microsoft.CSharp.dll": {},
+          "ref/netcoreapp2.0/Microsoft.VisualBasic.dll": {},
+          "ref/netcoreapp2.0/Microsoft.Win32.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.AppContext.dll": {},
+          "ref/netcoreapp2.0/System.Buffers.dll": {},
+          "ref/netcoreapp2.0/System.Collections.Concurrent.dll": {},
+          "ref/netcoreapp2.0/System.Collections.Immutable.dll": {},
+          "ref/netcoreapp2.0/System.Collections.NonGeneric.dll": {},
+          "ref/netcoreapp2.0/System.Collections.Specialized.dll": {},
+          "ref/netcoreapp2.0/System.Collections.dll": {},
+          "ref/netcoreapp2.0/System.ComponentModel.Annotations.dll": {},
+          "ref/netcoreapp2.0/System.ComponentModel.Composition.dll": {},
+          "ref/netcoreapp2.0/System.ComponentModel.DataAnnotations.dll": {},
+          "ref/netcoreapp2.0/System.ComponentModel.EventBasedAsync.dll": {},
+          "ref/netcoreapp2.0/System.ComponentModel.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.ComponentModel.TypeConverter.dll": {},
+          "ref/netcoreapp2.0/System.ComponentModel.dll": {},
+          "ref/netcoreapp2.0/System.Configuration.dll": {},
+          "ref/netcoreapp2.0/System.Console.dll": {},
+          "ref/netcoreapp2.0/System.Core.dll": {},
+          "ref/netcoreapp2.0/System.Data.Common.dll": {},
+          "ref/netcoreapp2.0/System.Data.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.Contracts.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.Debug.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.DiagnosticSource.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.FileVersionInfo.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.Process.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.StackTrace.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.TextWriterTraceListener.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.Tools.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.TraceSource.dll": {},
+          "ref/netcoreapp2.0/System.Diagnostics.Tracing.dll": {},
+          "ref/netcoreapp2.0/System.Drawing.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.Drawing.dll": {},
+          "ref/netcoreapp2.0/System.Dynamic.Runtime.dll": {},
+          "ref/netcoreapp2.0/System.Globalization.Calendars.dll": {},
+          "ref/netcoreapp2.0/System.Globalization.Extensions.dll": {},
+          "ref/netcoreapp2.0/System.Globalization.dll": {},
+          "ref/netcoreapp2.0/System.IO.Compression.FileSystem.dll": {},
+          "ref/netcoreapp2.0/System.IO.Compression.ZipFile.dll": {},
+          "ref/netcoreapp2.0/System.IO.Compression.dll": {},
+          "ref/netcoreapp2.0/System.IO.FileSystem.DriveInfo.dll": {},
+          "ref/netcoreapp2.0/System.IO.FileSystem.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.IO.FileSystem.Watcher.dll": {},
+          "ref/netcoreapp2.0/System.IO.FileSystem.dll": {},
+          "ref/netcoreapp2.0/System.IO.IsolatedStorage.dll": {},
+          "ref/netcoreapp2.0/System.IO.MemoryMappedFiles.dll": {},
+          "ref/netcoreapp2.0/System.IO.Pipes.dll": {},
+          "ref/netcoreapp2.0/System.IO.UnmanagedMemoryStream.dll": {},
+          "ref/netcoreapp2.0/System.IO.dll": {},
+          "ref/netcoreapp2.0/System.Linq.Expressions.dll": {},
+          "ref/netcoreapp2.0/System.Linq.Parallel.dll": {},
+          "ref/netcoreapp2.0/System.Linq.Queryable.dll": {},
+          "ref/netcoreapp2.0/System.Linq.dll": {},
+          "ref/netcoreapp2.0/System.Net.Http.dll": {},
+          "ref/netcoreapp2.0/System.Net.HttpListener.dll": {},
+          "ref/netcoreapp2.0/System.Net.Mail.dll": {},
+          "ref/netcoreapp2.0/System.Net.NameResolution.dll": {},
+          "ref/netcoreapp2.0/System.Net.NetworkInformation.dll": {},
+          "ref/netcoreapp2.0/System.Net.Ping.dll": {},
+          "ref/netcoreapp2.0/System.Net.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.Net.Requests.dll": {},
+          "ref/netcoreapp2.0/System.Net.Security.dll": {},
+          "ref/netcoreapp2.0/System.Net.ServicePoint.dll": {},
+          "ref/netcoreapp2.0/System.Net.Sockets.dll": {},
+          "ref/netcoreapp2.0/System.Net.WebClient.dll": {},
+          "ref/netcoreapp2.0/System.Net.WebHeaderCollection.dll": {},
+          "ref/netcoreapp2.0/System.Net.WebProxy.dll": {},
+          "ref/netcoreapp2.0/System.Net.WebSockets.Client.dll": {},
+          "ref/netcoreapp2.0/System.Net.WebSockets.dll": {},
+          "ref/netcoreapp2.0/System.Net.dll": {},
+          "ref/netcoreapp2.0/System.Numerics.Vectors.dll": {},
+          "ref/netcoreapp2.0/System.Numerics.dll": {},
+          "ref/netcoreapp2.0/System.ObjectModel.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.Emit.ILGeneration.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.Emit.Lightweight.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.Emit.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.Extensions.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.Metadata.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.TypeExtensions.dll": {},
+          "ref/netcoreapp2.0/System.Reflection.dll": {},
+          "ref/netcoreapp2.0/System.Resources.Reader.dll": {},
+          "ref/netcoreapp2.0/System.Resources.ResourceManager.dll": {},
+          "ref/netcoreapp2.0/System.Resources.Writer.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Extensions.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Handles.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.InteropServices.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Loader.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Numerics.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Serialization.Formatters.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Serialization.Json.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Serialization.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Serialization.Xml.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.Serialization.dll": {},
+          "ref/netcoreapp2.0/System.Runtime.dll": {},
+          "ref/netcoreapp2.0/System.Security.Claims.dll": {},
+          "ref/netcoreapp2.0/System.Security.Cryptography.Algorithms.dll": {},
+          "ref/netcoreapp2.0/System.Security.Cryptography.Csp.dll": {},
+          "ref/netcoreapp2.0/System.Security.Cryptography.Encoding.dll": {},
+          "ref/netcoreapp2.0/System.Security.Cryptography.Primitives.dll": {},
+          "ref/netcoreapp2.0/System.Security.Cryptography.X509Certificates.dll": {},
+          "ref/netcoreapp2.0/System.Security.Principal.dll": {},
+          "ref/netcoreapp2.0/System.Security.SecureString.dll": {},
+          "ref/netcoreapp2.0/System.Security.dll": {},
+          "ref/netcoreapp2.0/System.ServiceModel.Web.dll": {},
+          "ref/netcoreapp2.0/System.ServiceProcess.dll": {},
+          "ref/netcoreapp2.0/System.Text.Encoding.Extensions.dll": {},
+          "ref/netcoreapp2.0/System.Text.Encoding.dll": {},
+          "ref/netcoreapp2.0/System.Text.RegularExpressions.dll": {},
+          "ref/netcoreapp2.0/System.Threading.Overlapped.dll": {},
+          "ref/netcoreapp2.0/System.Threading.Tasks.Dataflow.dll": {},
+          "ref/netcoreapp2.0/System.Threading.Tasks.Extensions.dll": {},
+          "ref/netcoreapp2.0/System.Threading.Tasks.Parallel.dll": {},
+          "ref/netcoreapp2.0/System.Threading.Tasks.dll": {},
+          "ref/netcoreapp2.0/System.Threading.Thread.dll": {},
+          "ref/netcoreapp2.0/System.Threading.ThreadPool.dll": {},
+          "ref/netcoreapp2.0/System.Threading.Timer.dll": {},
+          "ref/netcoreapp2.0/System.Threading.dll": {},
+          "ref/netcoreapp2.0/System.Transactions.Local.dll": {},
+          "ref/netcoreapp2.0/System.Transactions.dll": {},
+          "ref/netcoreapp2.0/System.ValueTuple.dll": {},
+          "ref/netcoreapp2.0/System.Web.HttpUtility.dll": {},
+          "ref/netcoreapp2.0/System.Web.dll": {},
+          "ref/netcoreapp2.0/System.Windows.dll": {},
+          "ref/netcoreapp2.0/System.Xml.Linq.dll": {},
+          "ref/netcoreapp2.0/System.Xml.ReaderWriter.dll": {},
+          "ref/netcoreapp2.0/System.Xml.Serialization.dll": {},
+          "ref/netcoreapp2.0/System.Xml.XDocument.dll": {},
+          "ref/netcoreapp2.0/System.Xml.XPath.XDocument.dll": {},
+          "ref/netcoreapp2.0/System.Xml.XPath.dll": {},
+          "ref/netcoreapp2.0/System.Xml.XmlDocument.dll": {},
+          "ref/netcoreapp2.0/System.Xml.XmlSerializer.dll": {},
+          "ref/netcoreapp2.0/System.Xml.dll": {},
+          "ref/netcoreapp2.0/System.dll": {},
+          "ref/netcoreapp2.0/WindowsBase.dll": {},
+          "ref/netcoreapp2.0/mscorlib.dll": {},
+          "ref/netcoreapp2.0/netstandard.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.NETCore.App.props": {},
+          "build/netcoreapp2.0/Microsoft.NETCore.App.targets": {}
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.0.0": {
+        "type": "package"
+      },
+      "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.0.0"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.0.0"
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "NETStandard.Library/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "ByteBank.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Humanizer": "2.11.10"
+        },
+        "compile": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Humanizer/2.11.10": {
+      "sha512": "iBKnefim9KCvNaEqx4zPQHjBb+Jg8S3+Z1AYXniaKr/EbO/jA33rdPtu4vs6AEKSk2RjfPgKT+c0dkJSCj7H3Q==",
+      "type": "package",
+      "path": "humanizer/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.2.11.10.nupkg.sha512",
+        "humanizer.nuspec",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core/2.11.10": {
+      "sha512": "tUuQVtkkC7BIoZXyZGXi1rOHSIi/9/8kNKN878lb+fRcnJRLKWLOQhjRhZOIis6pkeAarN2hRTkI1H3q4v9JMg==",
+      "type": "package",
+      "path": "humanizer.core/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.2.11.10.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/net6.0/Humanizer.dll",
+        "lib/net6.0/Humanizer.xml",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.af/2.11.10": {
+      "sha512": "Vu+k4qclr2PRYA+FCArcoV0CxPsdn9zaAbgOVmTrfmdbi1a2gVzFjLUQLn1SxOSPBDZotag4X+hk6HqmAFpEEw==",
+      "type": "package",
+      "path": "humanizer.core.af/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.af.2.11.10.nupkg.sha512",
+        "humanizer.core.af.nuspec",
+        "lib/net6.0/af/Humanizer.resources.dll",
+        "lib/netstandard1.0/af/Humanizer.resources.dll",
+        "lib/netstandard2.0/af/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.ar/2.11.10": {
+      "sha512": "rpa0DB2m9opaQCjCSDe8tBrIUWABpGTZScM1HnlACPXow35EY3Pl6of6JF+3A9QSSXBGJLn3x7h1PqlGxwATfA==",
+      "type": "package",
+      "path": "humanizer.core.ar/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.ar.2.11.10.nupkg.sha512",
+        "humanizer.core.ar.nuspec",
+        "lib/net6.0/ar/Humanizer.resources.dll",
+        "lib/netstandard1.0/ar/Humanizer.resources.dll",
+        "lib/netstandard2.0/ar/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.az/2.11.10": {
+      "sha512": "A0ZU+LNkaMn6qi/gH83Oo4ceKM3nLlDRinCeDJdF44uzvwiYo8ZRYBCfYPf9HD38dwmsfeQH2EJ9gnxzJYJ1kg==",
+      "type": "package",
+      "path": "humanizer.core.az/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.az.2.11.10.nupkg.sha512",
+        "humanizer.core.az.nuspec",
+        "lib/net6.0/az/Humanizer.resources.dll",
+        "lib/netstandard1.0/az/Humanizer.resources.dll",
+        "lib/netstandard2.0/az/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.bg/2.11.10": {
+      "sha512": "EpF4svrbjy0HR/DTSaWtCtHY0L6Qd/YELym6/0b+oJk2WYqOtplCzwxPLR4Mu9ekUN1ZksNzqPDB6c/R+pD03g==",
+      "type": "package",
+      "path": "humanizer.core.bg/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.bg.2.11.10.nupkg.sha512",
+        "humanizer.core.bg.nuspec",
+        "lib/net6.0/bg/Humanizer.resources.dll",
+        "lib/netstandard1.0/bg/Humanizer.resources.dll",
+        "lib/netstandard2.0/bg/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.bn-BD/2.11.10": {
+      "sha512": "Ztv/Wn7DoVlEYd+jYqX8dJelyfAWyFK4VAbTR1dBnWObOrpNEc9PIPPo4FyyZD4LO4dq2xPEnQ63JASfbj+x7g==",
+      "type": "package",
+      "path": "humanizer.core.bn-bd/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.bn-bd.2.11.10.nupkg.sha512",
+        "humanizer.core.bn-bd.nuspec",
+        "lib/net6.0/bn-BD/Humanizer.resources.dll",
+        "lib/netstandard1.0/bn-BD/Humanizer.resources.dll",
+        "lib/netstandard2.0/bn-BD/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.cs/2.11.10": {
+      "sha512": "meTTEX8QrM6IQ+aOIUUEDQQcfLk6bKPTUuCKdNdSfAb77tZzeeWPUynJVimH8ndiMtRFioUH1cSvbqzVV7t3eg==",
+      "type": "package",
+      "path": "humanizer.core.cs/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.cs.2.11.10.nupkg.sha512",
+        "humanizer.core.cs.nuspec",
+        "lib/net6.0/cs/Humanizer.resources.dll",
+        "lib/netstandard1.0/cs/Humanizer.resources.dll",
+        "lib/netstandard2.0/cs/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.da/2.11.10": {
+      "sha512": "yKpWKEYqZVXIZPxzVkGjn5kiEwlsCDaOsYMf7wI94D5WXJm9085fMMpAmntez0IlzFb0P9qie52rst46XgT0wg==",
+      "type": "package",
+      "path": "humanizer.core.da/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.da.2.11.10.nupkg.sha512",
+        "humanizer.core.da.nuspec",
+        "lib/net6.0/da/Humanizer.resources.dll",
+        "lib/netstandard1.0/da/Humanizer.resources.dll",
+        "lib/netstandard2.0/da/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.de/2.11.10": {
+      "sha512": "1daCd+p1J2rrnS3ola2cn/SjT0GAFP4UMCkA3zgJojW5TzuubuNKSPdJyRlld4caItDTZunjQG3za3AnVke/fA==",
+      "type": "package",
+      "path": "humanizer.core.de/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.de.2.11.10.nupkg.sha512",
+        "humanizer.core.de.nuspec",
+        "lib/net6.0/de/Humanizer.resources.dll",
+        "lib/netstandard1.0/de/Humanizer.resources.dll",
+        "lib/netstandard2.0/de/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.el/2.11.10": {
+      "sha512": "cFaaKWoJ25ibfIX48ZskmweGeixqtyQRzUHfmZjshZbk0eHKrIEwgtI30TPUVemVBtAljlmzhZzGd5F6FTidcA==",
+      "type": "package",
+      "path": "humanizer.core.el/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.el.2.11.10.nupkg.sha512",
+        "humanizer.core.el.nuspec",
+        "lib/net6.0/el/Humanizer.resources.dll",
+        "lib/netstandard1.0/el/Humanizer.resources.dll",
+        "lib/netstandard2.0/el/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.es/2.11.10": {
+      "sha512": "CNKyMfTwTHl7a6RND7ICsS+Cl+RbFa4c2+XB8K/YoY//KkRjjWIOsndEtL1AAPWkwJ8WXlRg0to0nQgU43Z5xg==",
+      "type": "package",
+      "path": "humanizer.core.es/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.es.2.11.10.nupkg.sha512",
+        "humanizer.core.es.nuspec",
+        "lib/net6.0/es/Humanizer.resources.dll",
+        "lib/netstandard1.0/es/Humanizer.resources.dll",
+        "lib/netstandard2.0/es/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.fa/2.11.10": {
+      "sha512": "5Ss422qRJe/N4ttiPpkbu9rEXkdio8y+YotwP141OLlxqZMrvo94cbXrhw5N8EE6nqZKK/iGSl4JNBO8rkVTOw==",
+      "type": "package",
+      "path": "humanizer.core.fa/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.fa.2.11.10.nupkg.sha512",
+        "humanizer.core.fa.nuspec",
+        "lib/net6.0/fa/Humanizer.resources.dll",
+        "lib/netstandard1.0/fa/Humanizer.resources.dll",
+        "lib/netstandard2.0/fa/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.fi-FI/2.11.10": {
+      "sha512": "5+ryLjlBrGx5MBfwftp2UsxxRt743jZllv1BUFtRg44iNSD9nmq/a/iainEMu3ad1Dv8PjI+xQiiQf6qYwafJA==",
+      "type": "package",
+      "path": "humanizer.core.fi-fi/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.fi-fi.2.11.10.nupkg.sha512",
+        "humanizer.core.fi-fi.nuspec",
+        "lib/net6.0/fi-FI/Humanizer.resources.dll",
+        "lib/netstandard1.0/fi-FI/Humanizer.resources.dll",
+        "lib/netstandard2.0/fi-FI/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.fr/2.11.10": {
+      "sha512": "Oq8o/08Mp8Ylf1J+2KoBvij5NNoYmyhqrLjw7OtjpYrCyaFRLg86+rkWjpmTtrxKXZyb4Qe3ZrO29B0PGdJeOQ==",
+      "type": "package",
+      "path": "humanizer.core.fr/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.fr.2.11.10.nupkg.sha512",
+        "humanizer.core.fr.nuspec",
+        "lib/net6.0/fr/Humanizer.resources.dll",
+        "lib/netstandard1.0/fr/Humanizer.resources.dll",
+        "lib/netstandard2.0/fr/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.fr-BE/2.11.10": {
+      "sha512": "r7dn7lm58FwT4gjzqnHjGiqIpVbphusjix+qionOkt67JETJqYQouKX5k1YcQw5wErZS619fj+3ccdaYSbXUJA==",
+      "type": "package",
+      "path": "humanizer.core.fr-be/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.fr-be.2.11.10.nupkg.sha512",
+        "humanizer.core.fr-be.nuspec",
+        "lib/net6.0/fr-BE/Humanizer.resources.dll",
+        "lib/netstandard1.0/fr-BE/Humanizer.resources.dll",
+        "lib/netstandard2.0/fr-BE/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.he/2.11.10": {
+      "sha512": "YABjM2v2z+n6mGczGwleZFlBBnvjWOiScJGzo36XxZtwOEp6WSoYGshhqJ5XczEu4ERIYwaNq34dzw2LuprQBA==",
+      "type": "package",
+      "path": "humanizer.core.he/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.he.2.11.10.nupkg.sha512",
+        "humanizer.core.he.nuspec",
+        "lib/net6.0/he/Humanizer.resources.dll",
+        "lib/netstandard1.0/he/Humanizer.resources.dll",
+        "lib/netstandard2.0/he/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.hr/2.11.10": {
+      "sha512": "C7ctxN6oeNqPYQIxIyBN3JJB5LaEQVVNp2mdlXpqTWVlyUoiL0xDFA2TuY08AsAj9x6lCr7QvciLKjaVKtum2Q==",
+      "type": "package",
+      "path": "humanizer.core.hr/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.hr.2.11.10.nupkg.sha512",
+        "humanizer.core.hr.nuspec",
+        "lib/net6.0/hr/Humanizer.resources.dll",
+        "lib/netstandard1.0/hr/Humanizer.resources.dll",
+        "lib/netstandard2.0/hr/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.hu/2.11.10": {
+      "sha512": "gK3iBNkakzSI3y4c04PnioTeTU8T8wWIy7ZXfnBrfpSA8Sqn2FL3xBUoIkmAljq3Bs5KtMPgwAZhBpeaT+ttHg==",
+      "type": "package",
+      "path": "humanizer.core.hu/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.hu.2.11.10.nupkg.sha512",
+        "humanizer.core.hu.nuspec",
+        "lib/net6.0/hu/Humanizer.resources.dll",
+        "lib/netstandard1.0/hu/Humanizer.resources.dll",
+        "lib/netstandard2.0/hu/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.hy/2.11.10": {
+      "sha512": "7OUlU5ikDcrbrkN21OPVB4YvAeJ6iZgNSBHImpsElOCGLIijnfXnwr5qnM3A5uTv2ReCORQqUAGhVke6P6yOSg==",
+      "type": "package",
+      "path": "humanizer.core.hy/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.hy.2.11.10.nupkg.sha512",
+        "humanizer.core.hy.nuspec",
+        "lib/net6.0/hy/Humanizer.resources.dll",
+        "lib/netstandard1.0/hy/Humanizer.resources.dll",
+        "lib/netstandard2.0/hy/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.id/2.11.10": {
+      "sha512": "FF+uSzIfWIpFHPyppqzGZzYzllNCuNMjWaf/TRsVmZ3Fq+tAhwa6e8yS4u+x+ipIpG9hZz0k6czaKBSjU5/LSg==",
+      "type": "package",
+      "path": "humanizer.core.id/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.id.2.11.10.nupkg.sha512",
+        "humanizer.core.id.nuspec",
+        "lib/net6.0/id/Humanizer.resources.dll",
+        "lib/netstandard1.0/id/Humanizer.resources.dll",
+        "lib/netstandard2.0/id/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.it/2.11.10": {
+      "sha512": "aCgofZddBdthWmXB92n+gD6jF0ffY5UtrQODdWNLYpIQwx9e4vuQzESh+AImaYMx0kghN2S1mqj/A83P5PQr8w==",
+      "type": "package",
+      "path": "humanizer.core.it/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.it.2.11.10.nupkg.sha512",
+        "humanizer.core.it.nuspec",
+        "lib/net6.0/it/Humanizer.resources.dll",
+        "lib/netstandard1.0/it/Humanizer.resources.dll",
+        "lib/netstandard2.0/it/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.ja/2.11.10": {
+      "sha512": "rZzqViI08XZ1n7D1Ybnvn7aSYqwrLcK5MynWtAsCe85XXjNCs+5lTtz5ByOfCL0qH3oT4w5BQIdDfjYsdnSCpw==",
+      "type": "package",
+      "path": "humanizer.core.ja/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.ja.2.11.10.nupkg.sha512",
+        "humanizer.core.ja.nuspec",
+        "lib/net6.0/ja/Humanizer.resources.dll",
+        "lib/netstandard1.0/ja/Humanizer.resources.dll",
+        "lib/netstandard2.0/ja/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.ko-KR/2.11.10": {
+      "sha512": "sE6IsSl35brWlkMCVFqbZ/y67Md2HFi2ndX3V8VB3vY3CM7u3WaApbP0zHAwGPi/JpnOtOp9y7SNLdaPK6sIwQ==",
+      "type": "package",
+      "path": "humanizer.core.ko-kr/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.ko-kr.2.11.10.nupkg.sha512",
+        "humanizer.core.ko-kr.nuspec",
+        "lib/netstandard1.0/ko-KR/Humanizer.resources.dll",
+        "lib/netstandard2.0/ko-KR/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.ku/2.11.10": {
+      "sha512": "qCK3ESQ3zmM4YBpjxXr5MA+dswwgIUNz4GuJQsMFOvXL4eRkwpjuwyhVVooJm397wejNDO09YOCUCTf57vzaKg==",
+      "type": "package",
+      "path": "humanizer.core.ku/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.ku.2.11.10.nupkg.sha512",
+        "humanizer.core.ku.nuspec",
+        "lib/net6.0/ku/Humanizer.resources.dll",
+        "lib/netstandard1.0/ku/Humanizer.resources.dll",
+        "lib/netstandard2.0/ku/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.lv/2.11.10": {
+      "sha512": "nURlUhnLXNi6oxV040nRxWxwRPZldbP4ronYypOsRM/ss6Xjle9hLBZD/euHZBFUOvSmc6zf+TPllShxOgxM6w==",
+      "type": "package",
+      "path": "humanizer.core.lv/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.lv.2.11.10.nupkg.sha512",
+        "humanizer.core.lv.nuspec",
+        "lib/net6.0/lv/Humanizer.resources.dll",
+        "lib/netstandard1.0/lv/Humanizer.resources.dll",
+        "lib/netstandard2.0/lv/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.ms-MY/2.11.10": {
+      "sha512": "GZ94cGtnZOts/kl9Hktb4XDEd+yRlbumnrqPRMxgjadONEVZ1fzckQVBrP6eN2TERYKedRxKhgYJeuikaXZqFA==",
+      "type": "package",
+      "path": "humanizer.core.ms-my/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.ms-my.2.11.10.nupkg.sha512",
+        "humanizer.core.ms-my.nuspec",
+        "lib/netstandard1.0/ms-MY/Humanizer.resources.dll",
+        "lib/netstandard2.0/ms-MY/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.mt/2.11.10": {
+      "sha512": "efYhCE6Kgr7yr8rqjUBJnH1HUENBK5qcc3B/d4AcuFAYF8jkheBDPOShxUbjGXW0DHHYoLcXRm6HK2QDLCdwag==",
+      "type": "package",
+      "path": "humanizer.core.mt/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.mt.2.11.10.nupkg.sha512",
+        "humanizer.core.mt.nuspec",
+        "lib/netstandard1.0/mt/Humanizer.resources.dll",
+        "lib/netstandard2.0/mt/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.nb/2.11.10": {
+      "sha512": "lh4p8vYCvKHy+/NTSioVQWt181ulJx/p3dZIrmAN4NYYde9Y/CavKhAjBbFIpEGot0ivpL82MTnSVrklLE2DGg==",
+      "type": "package",
+      "path": "humanizer.core.nb/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.nb.2.11.10.nupkg.sha512",
+        "humanizer.core.nb.nuspec",
+        "lib/net6.0/nb/Humanizer.resources.dll",
+        "lib/netstandard1.0/nb/Humanizer.resources.dll",
+        "lib/netstandard2.0/nb/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.nb-NO/2.11.10": {
+      "sha512": "bm6ZdjefDGlO936XFXbXRy745QMdI0L+TMuUoVe789qIhZuhGVUlYxqip1pECt3EUAIMuPMHhRITOebVCrJd+g==",
+      "type": "package",
+      "path": "humanizer.core.nb-no/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.nb-no.2.11.10.nupkg.sha512",
+        "humanizer.core.nb-no.nuspec",
+        "lib/net6.0/nb-NO/Humanizer.resources.dll",
+        "lib/netstandard1.0/nb-NO/Humanizer.resources.dll",
+        "lib/netstandard2.0/nb-NO/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.nl/2.11.10": {
+      "sha512": "lpMm88opnpysKS7xsVrgEEwagjNQWbLLbAfxT5jFhbptqWtvd0qndS9h3eed8n8xzB+iHJbbvJ+FuUlVvbMIDA==",
+      "type": "package",
+      "path": "humanizer.core.nl/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.nl.2.11.10.nupkg.sha512",
+        "humanizer.core.nl.nuspec",
+        "lib/net6.0/nl/Humanizer.resources.dll",
+        "lib/netstandard1.0/nl/Humanizer.resources.dll",
+        "lib/netstandard2.0/nl/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.pl/2.11.10": {
+      "sha512": "/NOyROzFCGfCSZFiZvIuXczRmsDWxZLB187JNp5/wkaVCUJyFuE6I9b4OdlxQhVWquq51wRd6iGxHGuhrjuf5Q==",
+      "type": "package",
+      "path": "humanizer.core.pl/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.pl.2.11.10.nupkg.sha512",
+        "humanizer.core.pl.nuspec",
+        "lib/net6.0/pl/Humanizer.resources.dll",
+        "lib/netstandard1.0/pl/Humanizer.resources.dll",
+        "lib/netstandard2.0/pl/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.pt/2.11.10": {
+      "sha512": "eGgwfKbsyTgtN1IE10WTesvRLMUwkaKQYWI5MgU6goOU+yMAQbJqt2gGIKkYbbvIXGeJVwE9XoDmxRpVvvCgLw==",
+      "type": "package",
+      "path": "humanizer.core.pt/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.pt.2.11.10.nupkg.sha512",
+        "humanizer.core.pt.nuspec",
+        "lib/net6.0/pt/Humanizer.resources.dll",
+        "lib/netstandard1.0/pt/Humanizer.resources.dll",
+        "lib/netstandard2.0/pt/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.ro/2.11.10": {
+      "sha512": "EqHdv1cTBYjYBV6D5IzLbZA0/v5IqZK6Nf55z3EVf8QOrKSuU6d8/4Wr7Qdv6txnkKxLnOlBG2CnfGfaxK/bPg==",
+      "type": "package",
+      "path": "humanizer.core.ro/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.ro.2.11.10.nupkg.sha512",
+        "humanizer.core.ro.nuspec",
+        "lib/net6.0/ro/Humanizer.resources.dll",
+        "lib/netstandard1.0/ro/Humanizer.resources.dll",
+        "lib/netstandard2.0/ro/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.ru/2.11.10": {
+      "sha512": "qyotxQTojrrQS2ZvC1AoVETinq2ryX1kyyhU1b9ly4vvDT/8Mm2n26un2WyeubEK424lZQSKG8T8QHH7SZ5nTg==",
+      "type": "package",
+      "path": "humanizer.core.ru/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.ru.2.11.10.nupkg.sha512",
+        "humanizer.core.ru.nuspec",
+        "lib/net6.0/ru/Humanizer.resources.dll",
+        "lib/netstandard1.0/ru/Humanizer.resources.dll",
+        "lib/netstandard2.0/ru/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.sk/2.11.10": {
+      "sha512": "WLyjgx0JmN22xAZFbiaGix7WQtMHJKXGGs4BFhlkP8ZWsX5rBBdofScNfW99g/ugvmD5iIzCv9L4cMpJjJNH+g==",
+      "type": "package",
+      "path": "humanizer.core.sk/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.sk.2.11.10.nupkg.sha512",
+        "humanizer.core.sk.nuspec",
+        "lib/net6.0/sk/Humanizer.resources.dll",
+        "lib/netstandard1.0/sk/Humanizer.resources.dll",
+        "lib/netstandard2.0/sk/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.sl/2.11.10": {
+      "sha512": "+B60wZreFDe3i6RJLF+X4zQfoqiG2cXC7Kq1XeJdCdtrMuep5/YYsLcDMKSWjZQbJvJC6JVlQwBPpVJSy70nKQ==",
+      "type": "package",
+      "path": "humanizer.core.sl/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.sl.2.11.10.nupkg.sha512",
+        "humanizer.core.sl.nuspec",
+        "lib/net6.0/sl/Humanizer.resources.dll",
+        "lib/netstandard1.0/sl/Humanizer.resources.dll",
+        "lib/netstandard2.0/sl/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.sr/2.11.10": {
+      "sha512": "W46gq93yCYZ9MCX7P0+IIC26qHUjdtBzjkg0cBQKZAMHCQT6AM/eqhnmOWNpbIGI1Pjt8e6L8QV9H/ZcgSCC2w==",
+      "type": "package",
+      "path": "humanizer.core.sr/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.sr.2.11.10.nupkg.sha512",
+        "humanizer.core.sr.nuspec",
+        "lib/net6.0/sr/Humanizer.resources.dll",
+        "lib/netstandard1.0/sr/Humanizer.resources.dll",
+        "lib/netstandard2.0/sr/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.sr-Latn/2.11.10": {
+      "sha512": "8HO5u4L3jFfzIbIKkY8ysCmfgukoyzcRg6eThiKLX/esas0gB7lxZKYIvXfpblR+YW7HVvd2Mrab472Gn+N/Hg==",
+      "type": "package",
+      "path": "humanizer.core.sr-latn/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.sr-latn.2.11.10.nupkg.sha512",
+        "humanizer.core.sr-latn.nuspec",
+        "lib/net6.0/sr-Latn/Humanizer.resources.dll",
+        "lib/netstandard1.0/sr-Latn/Humanizer.resources.dll",
+        "lib/netstandard2.0/sr-Latn/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.sv/2.11.10": {
+      "sha512": "/ljtfQERCBlBfNpFRcj8Efap6pDTO6CLNyhmVq8ElNpG7Y0LhhSa/Cae5PlFHRG1vWzedTctnigKAqbySsr6dQ==",
+      "type": "package",
+      "path": "humanizer.core.sv/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.sv.2.11.10.nupkg.sha512",
+        "humanizer.core.sv.nuspec",
+        "lib/net6.0/sv/Humanizer.resources.dll",
+        "lib/netstandard1.0/sv/Humanizer.resources.dll",
+        "lib/netstandard2.0/sv/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.th-TH/2.11.10": {
+      "sha512": "OqI+KhA+Plz0RXsCRl5LNhh7ZYLeXVexQ42yokgWm7TsGjHGghijjZmdwiRbBeNWJ36D88kmigWjRAweIznYbA==",
+      "type": "package",
+      "path": "humanizer.core.th-th/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.th-th.2.11.10.nupkg.sha512",
+        "humanizer.core.th-th.nuspec",
+        "lib/netstandard1.0/th-TH/Humanizer.resources.dll",
+        "lib/netstandard2.0/th-TH/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.tr/2.11.10": {
+      "sha512": "f+Dye/8nR4lhEmhfSNp/uMX5z08L3ddaxeOy3huTxtzNk8BVG7FR3ApEKWZdwn4Bg87LkxxrSflRI8w4Bu+1jw==",
+      "type": "package",
+      "path": "humanizer.core.tr/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.tr.2.11.10.nupkg.sha512",
+        "humanizer.core.tr.nuspec",
+        "lib/net6.0/tr/Humanizer.resources.dll",
+        "lib/netstandard1.0/tr/Humanizer.resources.dll",
+        "lib/netstandard2.0/tr/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.uk/2.11.10": {
+      "sha512": "KFijERt+o752WBZYPgJDbDccSnDujEu1P16IuLsbthe3mVsDOQx8yFTPwVChEm+IuKY3j3NFlxy9jpGm6DRBLw==",
+      "type": "package",
+      "path": "humanizer.core.uk/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.uk.2.11.10.nupkg.sha512",
+        "humanizer.core.uk.nuspec",
+        "lib/net6.0/uk/Humanizer.resources.dll",
+        "lib/netstandard1.0/uk/Humanizer.resources.dll",
+        "lib/netstandard2.0/uk/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.uz-Cyrl-UZ/2.11.10": {
+      "sha512": "x03jC63WsAnjARzdieXvYt4Oz+Jcm+Hia/9NZBRM2eLyUNfgvSF4B+HlFpe3K3jfQNHk181Mo4wY0sl4vRgFAQ==",
+      "type": "package",
+      "path": "humanizer.core.uz-cyrl-uz/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.uz-cyrl-uz.2.11.10.nupkg.sha512",
+        "humanizer.core.uz-cyrl-uz.nuspec",
+        "lib/net6.0/uz-Cyrl-UZ/Humanizer.resources.dll",
+        "lib/netstandard1.0/uz-Cyrl-UZ/Humanizer.resources.dll",
+        "lib/netstandard2.0/uz-Cyrl-UZ/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.uz-Latn-UZ/2.11.10": {
+      "sha512": "ZeBjuMyoy+a170cUbiTQHo+Hej4FVpigee7zJ9Phr0myd2o9nXIxN40zykiS/npVJcl+oQq8YQVKmEiUicv9Tw==",
+      "type": "package",
+      "path": "humanizer.core.uz-latn-uz/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.uz-latn-uz.2.11.10.nupkg.sha512",
+        "humanizer.core.uz-latn-uz.nuspec",
+        "lib/net6.0/uz-Latn-UZ/Humanizer.resources.dll",
+        "lib/netstandard1.0/uz-Latn-UZ/Humanizer.resources.dll",
+        "lib/netstandard2.0/uz-Latn-UZ/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.vi/2.11.10": {
+      "sha512": "W1RPA+fiJAROZskLzpP/1mzmeRJY4l2CNhS+B7h4BPxI3Pg+Qwojc4i3zocaja66M3CS7GSun1GXhD1usn90sw==",
+      "type": "package",
+      "path": "humanizer.core.vi/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.vi.2.11.10.nupkg.sha512",
+        "humanizer.core.vi.nuspec",
+        "lib/net6.0/vi/Humanizer.resources.dll",
+        "lib/netstandard1.0/vi/Humanizer.resources.dll",
+        "lib/netstandard2.0/vi/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.zh-CN/2.11.10": {
+      "sha512": "xOurWoWrbhkk1qMPIBUuwZZTNDO5OF2mfaBNGX7GkwYfzn8kjKUSrWc7U0H7MSobmEdfbz49+EGK+g3xEYgPIA==",
+      "type": "package",
+      "path": "humanizer.core.zh-cn/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.zh-cn.2.11.10.nupkg.sha512",
+        "humanizer.core.zh-cn.nuspec",
+        "lib/net6.0/zh-CN/Humanizer.resources.dll",
+        "lib/netstandard1.0/zh-CN/Humanizer.resources.dll",
+        "lib/netstandard2.0/zh-CN/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.zh-Hans/2.11.10": {
+      "sha512": "LW5Mixuomot1poRdZAUqs6ZBbwheoTfNqjqZxC1tKvEQYv6g7q5UXAXOIgEBowEg7ODo0IokE+ORj1TcZrYdOQ==",
+      "type": "package",
+      "path": "humanizer.core.zh-hans/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.zh-hans.2.11.10.nupkg.sha512",
+        "humanizer.core.zh-hans.nuspec",
+        "lib/net6.0/zh-Hans/Humanizer.resources.dll",
+        "lib/netstandard1.0/zh-Hans/Humanizer.resources.dll",
+        "lib/netstandard2.0/zh-Hans/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.zh-Hant/2.11.10": {
+      "sha512": "e2fr5ssWp98YuyU3GfN21TEPHXnBjMZfQQYMWxMbPAQeAKe/GH5DogkJpkPRsECeMWWwjtvGEv3RVmKVnQ1bdA==",
+      "type": "package",
+      "path": "humanizer.core.zh-hant/2.11.10",
+      "files": [
+        ".signature.p7s",
+        "humanizer.core.zh-hant.2.11.10.nupkg.sha512",
+        "humanizer.core.zh-hant.nuspec",
+        "lib/net6.0/zh-Hant/Humanizer.resources.dll",
+        "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
+        "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Microsoft.NETCore.App/2.0.0": {
+      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
+      "type": "package",
+      "path": "microsoft.netcore.app/2.0.0",
+      "files": [
+        "LICENSE.TXT",
+        "Microsoft.NETCore.App.versions.txt",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netcoreapp2.0/Microsoft.NETCore.App.PlatformManifest.txt",
+        "build/netcoreapp2.0/Microsoft.NETCore.App.props",
+        "build/netcoreapp2.0/Microsoft.NETCore.App.targets",
+        "microsoft.netcore.app.2.0.0.nupkg.sha512",
+        "microsoft.netcore.app.nuspec",
+        "ref/netcoreapp/_._",
+        "ref/netcoreapp2.0/Microsoft.CSharp.dll",
+        "ref/netcoreapp2.0/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/Microsoft.VisualBasic.dll",
+        "ref/netcoreapp2.0/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/Microsoft.Win32.Primitives.dll",
+        "ref/netcoreapp2.0/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/System.AppContext.dll",
+        "ref/netcoreapp2.0/System.AppContext.xml",
+        "ref/netcoreapp2.0/System.Buffers.dll",
+        "ref/netcoreapp2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/System.Collections.Concurrent.dll",
+        "ref/netcoreapp2.0/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/System.Collections.Immutable.dll",
+        "ref/netcoreapp2.0/System.Collections.Immutable.xml",
+        "ref/netcoreapp2.0/System.Collections.NonGeneric.dll",
+        "ref/netcoreapp2.0/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/System.Collections.Specialized.dll",
+        "ref/netcoreapp2.0/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/System.Collections.dll",
+        "ref/netcoreapp2.0/System.Collections.xml",
+        "ref/netcoreapp2.0/System.ComponentModel.Annotations.dll",
+        "ref/netcoreapp2.0/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/System.ComponentModel.Composition.dll",
+        "ref/netcoreapp2.0/System.ComponentModel.DataAnnotations.dll",
+        "ref/netcoreapp2.0/System.ComponentModel.EventBasedAsync.dll",
+        "ref/netcoreapp2.0/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/System.ComponentModel.Primitives.dll",
+        "ref/netcoreapp2.0/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/System.ComponentModel.TypeConverter.dll",
+        "ref/netcoreapp2.0/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/System.ComponentModel.dll",
+        "ref/netcoreapp2.0/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/System.Configuration.dll",
+        "ref/netcoreapp2.0/System.Console.dll",
+        "ref/netcoreapp2.0/System.Console.xml",
+        "ref/netcoreapp2.0/System.Core.dll",
+        "ref/netcoreapp2.0/System.Data.Common.dll",
+        "ref/netcoreapp2.0/System.Data.Common.xml",
+        "ref/netcoreapp2.0/System.Data.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.Contracts.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.Debug.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.DiagnosticSource.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.DiagnosticSource.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.FileVersionInfo.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.Process.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.StackTrace.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.TextWriterTraceListener.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.Tools.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.TraceSource.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/System.Diagnostics.Tracing.dll",
+        "ref/netcoreapp2.0/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/System.Drawing.Primitives.dll",
+        "ref/netcoreapp2.0/System.Drawing.Primitives.xml",
+        "ref/netcoreapp2.0/System.Drawing.dll",
+        "ref/netcoreapp2.0/System.Dynamic.Runtime.dll",
+        "ref/netcoreapp2.0/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/System.Globalization.Calendars.dll",
+        "ref/netcoreapp2.0/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/System.Globalization.Extensions.dll",
+        "ref/netcoreapp2.0/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/System.Globalization.dll",
+        "ref/netcoreapp2.0/System.Globalization.xml",
+        "ref/netcoreapp2.0/System.IO.Compression.FileSystem.dll",
+        "ref/netcoreapp2.0/System.IO.Compression.ZipFile.dll",
+        "ref/netcoreapp2.0/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/System.IO.Compression.dll",
+        "ref/netcoreapp2.0/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/System.IO.FileSystem.DriveInfo.dll",
+        "ref/netcoreapp2.0/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/System.IO.FileSystem.Primitives.dll",
+        "ref/netcoreapp2.0/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/System.IO.FileSystem.Watcher.dll",
+        "ref/netcoreapp2.0/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/System.IO.FileSystem.dll",
+        "ref/netcoreapp2.0/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/System.IO.IsolatedStorage.dll",
+        "ref/netcoreapp2.0/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/System.IO.MemoryMappedFiles.dll",
+        "ref/netcoreapp2.0/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/System.IO.Pipes.dll",
+        "ref/netcoreapp2.0/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/System.IO.UnmanagedMemoryStream.dll",
+        "ref/netcoreapp2.0/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/System.IO.dll",
+        "ref/netcoreapp2.0/System.IO.xml",
+        "ref/netcoreapp2.0/System.Linq.Expressions.dll",
+        "ref/netcoreapp2.0/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/System.Linq.Parallel.dll",
+        "ref/netcoreapp2.0/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/System.Linq.Queryable.dll",
+        "ref/netcoreapp2.0/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/System.Linq.dll",
+        "ref/netcoreapp2.0/System.Linq.xml",
+        "ref/netcoreapp2.0/System.Net.Http.dll",
+        "ref/netcoreapp2.0/System.Net.Http.xml",
+        "ref/netcoreapp2.0/System.Net.HttpListener.dll",
+        "ref/netcoreapp2.0/System.Net.HttpListener.xml",
+        "ref/netcoreapp2.0/System.Net.Mail.dll",
+        "ref/netcoreapp2.0/System.Net.Mail.xml",
+        "ref/netcoreapp2.0/System.Net.NameResolution.dll",
+        "ref/netcoreapp2.0/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/System.Net.NetworkInformation.dll",
+        "ref/netcoreapp2.0/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/System.Net.Ping.dll",
+        "ref/netcoreapp2.0/System.Net.Ping.xml",
+        "ref/netcoreapp2.0/System.Net.Primitives.dll",
+        "ref/netcoreapp2.0/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/System.Net.Requests.dll",
+        "ref/netcoreapp2.0/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/System.Net.Security.dll",
+        "ref/netcoreapp2.0/System.Net.Security.xml",
+        "ref/netcoreapp2.0/System.Net.ServicePoint.dll",
+        "ref/netcoreapp2.0/System.Net.ServicePoint.xml",
+        "ref/netcoreapp2.0/System.Net.Sockets.dll",
+        "ref/netcoreapp2.0/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/System.Net.WebClient.dll",
+        "ref/netcoreapp2.0/System.Net.WebClient.xml",
+        "ref/netcoreapp2.0/System.Net.WebHeaderCollection.dll",
+        "ref/netcoreapp2.0/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/System.Net.WebProxy.dll",
+        "ref/netcoreapp2.0/System.Net.WebProxy.xml",
+        "ref/netcoreapp2.0/System.Net.WebSockets.Client.dll",
+        "ref/netcoreapp2.0/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/System.Net.WebSockets.dll",
+        "ref/netcoreapp2.0/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/System.Net.dll",
+        "ref/netcoreapp2.0/System.Numerics.Vectors.dll",
+        "ref/netcoreapp2.0/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/System.Numerics.dll",
+        "ref/netcoreapp2.0/System.ObjectModel.dll",
+        "ref/netcoreapp2.0/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/System.Reflection.DispatchProxy.dll",
+        "ref/netcoreapp2.0/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/System.Reflection.Emit.ILGeneration.dll",
+        "ref/netcoreapp2.0/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netcoreapp2.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/System.Reflection.Emit.dll",
+        "ref/netcoreapp2.0/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/System.Reflection.Extensions.dll",
+        "ref/netcoreapp2.0/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/System.Reflection.Metadata.dll",
+        "ref/netcoreapp2.0/System.Reflection.Metadata.xml",
+        "ref/netcoreapp2.0/System.Reflection.Primitives.dll",
+        "ref/netcoreapp2.0/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/System.Reflection.TypeExtensions.dll",
+        "ref/netcoreapp2.0/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/System.Reflection.dll",
+        "ref/netcoreapp2.0/System.Reflection.xml",
+        "ref/netcoreapp2.0/System.Resources.Reader.dll",
+        "ref/netcoreapp2.0/System.Resources.Reader.xml",
+        "ref/netcoreapp2.0/System.Resources.ResourceManager.dll",
+        "ref/netcoreapp2.0/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/System.Resources.Writer.dll",
+        "ref/netcoreapp2.0/System.Resources.Writer.xml",
+        "ref/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.dll",
+        "ref/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/System.Runtime.Extensions.dll",
+        "ref/netcoreapp2.0/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/System.Runtime.Handles.dll",
+        "ref/netcoreapp2.0/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "ref/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.xml",
+        "ref/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "ref/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/System.Runtime.InteropServices.dll",
+        "ref/netcoreapp2.0/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/System.Runtime.Loader.dll",
+        "ref/netcoreapp2.0/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/System.Runtime.Numerics.dll",
+        "ref/netcoreapp2.0/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Formatters.dll",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Formatters.xml",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Json.dll",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Xml.dll",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/System.Runtime.Serialization.dll",
+        "ref/netcoreapp2.0/System.Runtime.dll",
+        "ref/netcoreapp2.0/System.Runtime.xml",
+        "ref/netcoreapp2.0/System.Security.Claims.dll",
+        "ref/netcoreapp2.0/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Algorithms.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Algorithms.xml",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Csp.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Csp.xml",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Encoding.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Primitives.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Primitives.xml",
+        "ref/netcoreapp2.0/System.Security.Cryptography.X509Certificates.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/System.Security.Principal.dll",
+        "ref/netcoreapp2.0/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/System.Security.SecureString.dll",
+        "ref/netcoreapp2.0/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/System.Security.dll",
+        "ref/netcoreapp2.0/System.ServiceModel.Web.dll",
+        "ref/netcoreapp2.0/System.ServiceProcess.dll",
+        "ref/netcoreapp2.0/System.Text.Encoding.Extensions.dll",
+        "ref/netcoreapp2.0/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/System.Text.Encoding.dll",
+        "ref/netcoreapp2.0/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/System.Text.RegularExpressions.dll",
+        "ref/netcoreapp2.0/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/System.Threading.Overlapped.dll",
+        "ref/netcoreapp2.0/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/System.Threading.Tasks.Dataflow.dll",
+        "ref/netcoreapp2.0/System.Threading.Tasks.Dataflow.xml",
+        "ref/netcoreapp2.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netcoreapp2.0/System.Threading.Tasks.Extensions.xml",
+        "ref/netcoreapp2.0/System.Threading.Tasks.Parallel.dll",
+        "ref/netcoreapp2.0/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/System.Threading.Tasks.dll",
+        "ref/netcoreapp2.0/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/System.Threading.Thread.dll",
+        "ref/netcoreapp2.0/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/System.Threading.ThreadPool.dll",
+        "ref/netcoreapp2.0/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/System.Threading.Timer.dll",
+        "ref/netcoreapp2.0/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/System.Threading.dll",
+        "ref/netcoreapp2.0/System.Threading.xml",
+        "ref/netcoreapp2.0/System.Transactions.Local.dll",
+        "ref/netcoreapp2.0/System.Transactions.Local.xml",
+        "ref/netcoreapp2.0/System.Transactions.dll",
+        "ref/netcoreapp2.0/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/System.Web.HttpUtility.dll",
+        "ref/netcoreapp2.0/System.Web.HttpUtility.xml",
+        "ref/netcoreapp2.0/System.Web.dll",
+        "ref/netcoreapp2.0/System.Windows.dll",
+        "ref/netcoreapp2.0/System.Xml.Linq.dll",
+        "ref/netcoreapp2.0/System.Xml.ReaderWriter.dll",
+        "ref/netcoreapp2.0/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/System.Xml.Serialization.dll",
+        "ref/netcoreapp2.0/System.Xml.XDocument.dll",
+        "ref/netcoreapp2.0/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/System.Xml.XPath.XDocument.dll",
+        "ref/netcoreapp2.0/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/System.Xml.XPath.dll",
+        "ref/netcoreapp2.0/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/System.Xml.XmlDocument.dll",
+        "ref/netcoreapp2.0/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/System.Xml.XmlSerializer.dll",
+        "ref/netcoreapp2.0/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/System.Xml.dll",
+        "ref/netcoreapp2.0/System.dll",
+        "ref/netcoreapp2.0/WindowsBase.dll",
+        "ref/netcoreapp2.0/mscorlib.dll",
+        "ref/netcoreapp2.0/netstandard.dll",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.DotNetAppHost/2.0.0": {
+      "sha512": "L4GGkcI/Mxl8PKLRpFdGmLb5oI8sGIR05bDTGkzCoamAjdUl1Zhkov2swjEsZvKYT8kkdiz39LtwyGYuCJxm1A==",
+      "type": "package",
+      "path": "microsoft.netcore.dotnetapphost/2.0.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnetapphost.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
+      "sha512": "rm7mMn0A93fwyAwVhbyOCcPuu2hZNL0A0dAur9sNG9pEkONPfCEQeF7m2mC8KpqZO0Ol6tpV5J0AF3HTXT3GXA==",
+      "type": "package",
+      "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnethostpolicy.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
+      "sha512": "uBbjpeSrwsaTCADZCzRk+3aBzNnMqkC4zftJWBsL+Zk+8u+W+/lMb2thM5Y4hiVrv1YQg9t6dKldXzOKkY+pQw==",
+      "type": "package",
+      "path": "microsoft.netcore.dotnethostresolver/2.0.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnethostresolver.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "files": [
+        "LICENSE.TXT",
+        "Microsoft.NETCore.Platforms.2.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "NETStandard.Library/2.0.0": {
+      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "type": "package",
+      "path": "netstandard.library/2.0.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/NETStandard.Library.targets",
+        "build/netstandard2.0/NETStandard.Library.targets",
+        "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
+        "build/netstandard2.0/ref/System.AppContext.dll",
+        "build/netstandard2.0/ref/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/ref/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/ref/System.Collections.Specialized.dll",
+        "build/netstandard2.0/ref/System.Collections.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Composition.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.dll",
+        "build/netstandard2.0/ref/System.Console.dll",
+        "build/netstandard2.0/ref/System.Core.dll",
+        "build/netstandard2.0/ref/System.Data.Common.dll",
+        "build/netstandard2.0/ref/System.Data.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Contracts.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Debug.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tools.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tracing.dll",
+        "build/netstandard2.0/ref/System.Drawing.Primitives.dll",
+        "build/netstandard2.0/ref/System.Drawing.dll",
+        "build/netstandard2.0/ref/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/ref/System.Globalization.Calendars.dll",
+        "build/netstandard2.0/ref/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/ref/System.Globalization.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.IsolatedStorage.dll",
+        "build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll",
+        "build/netstandard2.0/ref/System.IO.Pipes.dll",
+        "build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll",
+        "build/netstandard2.0/ref/System.IO.dll",
+        "build/netstandard2.0/ref/System.Linq.Expressions.dll",
+        "build/netstandard2.0/ref/System.Linq.Parallel.dll",
+        "build/netstandard2.0/ref/System.Linq.Queryable.dll",
+        "build/netstandard2.0/ref/System.Linq.dll",
+        "build/netstandard2.0/ref/System.Net.Http.dll",
+        "build/netstandard2.0/ref/System.Net.NameResolution.dll",
+        "build/netstandard2.0/ref/System.Net.NetworkInformation.dll",
+        "build/netstandard2.0/ref/System.Net.Ping.dll",
+        "build/netstandard2.0/ref/System.Net.Primitives.dll",
+        "build/netstandard2.0/ref/System.Net.Requests.dll",
+        "build/netstandard2.0/ref/System.Net.Security.dll",
+        "build/netstandard2.0/ref/System.Net.Sockets.dll",
+        "build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.Client.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.dll",
+        "build/netstandard2.0/ref/System.Net.dll",
+        "build/netstandard2.0/ref/System.Numerics.dll",
+        "build/netstandard2.0/ref/System.ObjectModel.dll",
+        "build/netstandard2.0/ref/System.Reflection.Extensions.dll",
+        "build/netstandard2.0/ref/System.Reflection.Primitives.dll",
+        "build/netstandard2.0/ref/System.Reflection.dll",
+        "build/netstandard2.0/ref/System.Resources.Reader.dll",
+        "build/netstandard2.0/ref/System.Resources.ResourceManager.dll",
+        "build/netstandard2.0/ref/System.Resources.Writer.dll",
+        "build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll",
+        "build/netstandard2.0/ref/System.Runtime.Extensions.dll",
+        "build/netstandard2.0/ref/System.Runtime.Handles.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.dll",
+        "build/netstandard2.0/ref/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.dll",
+        "build/netstandard2.0/ref/System.Runtime.dll",
+        "build/netstandard2.0/ref/System.Security.Claims.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll",
+        "build/netstandard2.0/ref/System.Security.Principal.dll",
+        "build/netstandard2.0/ref/System.Security.SecureString.dll",
+        "build/netstandard2.0/ref/System.ServiceModel.Web.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.dll",
+        "build/netstandard2.0/ref/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/ref/System.Threading.Overlapped.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.dll",
+        "build/netstandard2.0/ref/System.Threading.Thread.dll",
+        "build/netstandard2.0/ref/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/ref/System.Threading.Timer.dll",
+        "build/netstandard2.0/ref/System.Threading.dll",
+        "build/netstandard2.0/ref/System.Transactions.dll",
+        "build/netstandard2.0/ref/System.ValueTuple.dll",
+        "build/netstandard2.0/ref/System.Web.dll",
+        "build/netstandard2.0/ref/System.Windows.dll",
+        "build/netstandard2.0/ref/System.Xml.Linq.dll",
+        "build/netstandard2.0/ref/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/ref/System.Xml.Serialization.dll",
+        "build/netstandard2.0/ref/System.Xml.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/ref/System.Xml.dll",
+        "build/netstandard2.0/ref/System.dll",
+        "build/netstandard2.0/ref/mscorlib.dll",
+        "build/netstandard2.0/ref/netstandard.dll",
+        "build/netstandard2.0/ref/netstandard.xml",
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.nuspec"
+      ]
+    },
+    "ByteBank.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../ByteBank.Modelos/ByteBank.Modelos.csproj",
+      "msbuildProject": "../ByteBank.Modelos/ByteBank.Modelos.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.0": [
+      "ByteBank.Modelos >= 1.0.0",
+      "Humanizer >= 2.11.10",
+      "Humanizer.Core >= 2.11.10",
+      "Microsoft.NETCore.App >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vmartins\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectName": "ByteBank.SistemaAgencia",
+      "projectPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "packagesPath": "C:\\Users\\vmartins\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.SistemaAgencia\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "projectReferences": {
+            "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+              "projectPath": "C:\\Users\\vmartins\\Documents\\Meus_Projetos\\csharp-avancando-na-linguagem\\PrimeiroProjeto\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.0": {
+        "dependencies": {
+          "Humanizer": {
+            "target": "Package",
+            "version": "[2.11.10, )"
+          },
+          "Humanizer.Core": {
+            "target": "Package",
+            "version": "[2.11.10, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
