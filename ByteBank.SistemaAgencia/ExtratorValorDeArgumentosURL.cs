@@ -17,6 +17,27 @@ namespace ByteBank.SistemaAgencia
 
             int indiceInterrogacao = url.IndexOf('?');
             _argumentos = url.Substring(indiceInterrogacao + 1);
+
+        }
+
+        //moedaOrigem=real&moedaDestino=dolar
+        public string GetValor(string nomeParamentro)
+        {
+            string termo = nomeParamentro + "=";
+            int indiceTermo = _argumentos.IndexOf(termo);
+
+            string resultado = _argumentos.Substring(indiceTermo + termo.Length);
+            int indiceEComercial = resultado.IndexOf('&');
+
+
+            if(indiceEComercial == -1)
+            {
+                return resultado;
+            }
+
+            return resultado.Remove(indiceEComercial);
+
+            //return "";
         }
     }
 }
