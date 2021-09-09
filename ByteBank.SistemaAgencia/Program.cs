@@ -21,6 +21,7 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine("Valor de moedaOrigem: " + extratorDeValores.GetValor("valor"));
 
             Console.ReadLine();
+            Console.WriteLine();
 
 
             // Testando o metodo remove
