@@ -8,6 +8,18 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
 
+            //Testando Starts With, Ends With and Contains;
+
+            string urlTeste = "https://www.bytebank.com/cambio";
+            int indiceByteBank = urlTeste.IndexOf("https://www.bytebank.com");
+
+            Console.WriteLine(urlTeste.StartsWith("https://www.bytebank.com"));
+            Console.WriteLine(urlTeste.EndsWith("cambio/"));
+
+            Console.WriteLine(urlTeste.Contains("bytebank"));
+            
+            Console.ReadLine(); 
+
             //moedaOrigem=real&moedaDestino=dolar
             //
             // ---------------------------
