@@ -1,5 +1,6 @@
 ﻿using System;
 using ByteBank.Modelos;
+using ByteBank.Modelos.Funcionarios;
 using System.Text.RegularExpressions;
 
 namespace ByteBank.SistemaAgencia
@@ -9,6 +10,46 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Hello World");
+            Console.WriteLine(123);
+            Console.WriteLine(10.5);
+            Console.WriteLine(true);
+
+            object conta = new ContaCorrente(1234, 23412421);
+            object desenvolvedor = new Desenvolvedor("45235234");
+
+            string contaToString = conta.ToString();
+
+            Console.WriteLine($"Resultado {conta.ToString()}");
+            Console.WriteLine(conta);
+
+            Cliente carlos_1 = new Cliente();
+            carlos_1.Nome = "Carlos";
+            carlos_1.CPF = "321.213.123-13";
+            carlos_1.Profissao = "Designer";
+            
+            Cliente carlos_2 = new Cliente();
+            carlos_2.Nome = "Carlos";
+            carlos_2.CPF = "321.213.123-13";
+            carlos_2.Profissao = "Designer";
+
+            ContaCorrente conta_2 = new ContaCorrente(32433, 234242);
+
+            if(carlos_1.Equals(carlos_2))
+            {
+                Console.WriteLine("São Iguais");
+            }
+            else
+            {
+                Console.WriteLine("Não são iguais");
+            }
+
+        }
+
+        static void TestaString()
+        {
+
+            
             // "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]"
             // "[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]";
             // "[0-9]{4,5}[-][0-9]{4}";
