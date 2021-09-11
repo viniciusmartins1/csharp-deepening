@@ -1,4 +1,5 @@
 
+
 ## Conhecendo mais de C# com: Strings, expressões regulares e a classe Object
 
 
@@ -7,4 +8,12 @@ Repositório para prática e exercícios de um dos cursos da formação de progr
 
 >#### Tópicos Abordados
 
-- Métodos da classe String como: Substring, IndexOf, IsNullOrEmpty, etc;
+- Métodos da classe String como: 
+	- Substring;
+	- IndexOf;
+	- IsNullOrEmpty;
+	- Stars With and Ends With;
+	- Contains;
+	- Replace;
+	- ToLower and ToUpper;
+	- Length;
