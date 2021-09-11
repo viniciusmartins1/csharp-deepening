@@ -9,8 +9,9 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
 
-
-            string padrao = "[0123456789][0123456789][0123456789][0123456789]-[0123456789][0123456789][0123456789][0123456789]";
+            //string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]"
+            //string padrao = "[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]";
+            string  padrao = "[0-9]{4}[-][0-9]{4}";
             string textoDeTeste = "Meu nome é Vinicius, me ligue em 4784-4546";
 
             Match resultado = Regex.Match(textoDeTeste, padrao);
