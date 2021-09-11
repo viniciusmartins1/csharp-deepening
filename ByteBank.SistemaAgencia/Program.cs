@@ -1,5 +1,6 @@
 ﻿using System;
 using ByteBank.Modelos;
+using System.Text.RegularExpressions;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -7,6 +8,15 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+
+
+            string padrao = "[0123456789][0123456789][0123456789][0123456789]-[0123456789][0123456789][0123456789][0123456789]";
+            string textoDeTeste = "Meu nome é Vinicius, me ligue em 4784-4546";
+
+            Match resultado = Regex.Match(textoDeTeste, padrao);
+
+            Console.WriteLine(resultado.Value);
+            Console.ReadLine();
 
             //Testando Starts With, Ends With and Contains;
 
